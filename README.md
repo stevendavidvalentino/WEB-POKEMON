@@ -8,12 +8,12 @@
 
 Selamat datang di proyek **Website Pokemon**! Ini adalah aplikasi web yang menampilkan informasi tentang berbagai Pokemon menggunakan React, dan Tailwindcss. Proyek ini bertujuan untuk memberikan pengalaman interaktif bagi penggemar Pokemon dan pengembang web yang ingin belajar lebih banyak tentang pengembangan web.
 
-![gambar Steven](![Image](https://github.com/user-attachments/assets/7b472670-13a9-4b52-87e7-4c72c1e00682))
+![Screenshot 2025-04-15 001925](https://github.com/user-attachments/assets/2e1a130a-f44d-457d-8ed9-dd730d06d783)
 
-![gambari Steven pokemon](![Image](https://github.com/user-attachments/assets/f85cd98e-8807-4525-9517-3c5e99ed0eb0))
-
+![Screenshot 2025-04-15 001903](https://github.com/user-attachments/assets/3e9b1764-6a83-4f0a-a9e1-8f8b59c1644d)
 
 ## Fitur
+
 
 - **Daftar Pokemon**: Menampilkan daftar Pokemon yang dapat diakses oleh pengguna.
 - **Detail Pokemon**: Pengguna dapat mengklik pada Pokemon untuk melihat detail lebih lanjut, termasuk gambar, tipe, dan statistik.
