@@ -1,0 +1,95 @@
+.pokemon-list-container {
+    width: 320px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #1e2144;
+    border-radius: 12px 0 0 12px;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    overflow-y: auto;
+}
+
+.pokemon-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 21px 8px 21px;
+    box-sizing: border-box;
+}
+
+.pokemon-list-scrollable {
+    flex: 1;
+    overflow-y: auto;
+    padding-bottom: 16px;
+    scrollbar-width: none;
+    margin-top: -5px;
+}
+
+.pokemon-list-scrollable::-webkit-scrollbar {
+    display: none;
+}
+
+.sort-select {
+    width: 186px;
+    height: 32px;
+    top: 64px;
+    left: 21px;
+    background-color: #3d4166;
+    color: #bfc6f9;
+    border-radius: 8px;
+    border: 1px solid #333756;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.grid-toggle-box {
+    display: flex;
+    width: 70px;
+    height: 32px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #0b0d2b;
+    border: none;
+}
+
+.grid-toggle-button {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: background-color 0.2s ease;
+    position: relative;
+}
+
+.grid-toggle-button.active {
+    background-color: #3d4166;
+    border-radius: 0px;
+}
+
+.grid-icon {
+    display: grid;
+    place-items: center;
+    color: #bfc6f9;
+    font-size: 14px;
+}
+
+.pokemon-list {
+    display: grid;
+    gap: 8px;
+    padding: 12px 10px;
+    box-sizing: border-box;
+}
+
+.pokemon-list.one-grid {
+    grid-template-columns: 1fr;
+}
+
+.pokemon-list.two-grid {
+    grid-template-columns: repeat(2, 1fr);
+}

@@ -1,0 +1,167 @@
+.pokemon-detail-container {
+    width: 320px;
+    height: 568px;
+    background-color: #1e2144;
+    border-radius: 16px;
+    position: relative;
+    font-family: "Arial", sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+.pokemon-detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px 0;
+}
+
+.pokemon-id {
+    font-size: 18px;
+    font: "DM Sans";
+    color: #bfc6f9;
+    padding-left: 12px;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.close-button:focus {
+    outline: none;
+}
+
+.pokemon-large-img {
+    position: absolute;
+    top: 81px;
+    left: 61px;
+    width: 200px;
+    height: 200px;
+    image-rendering: pixelated;
+}
+
+.pokemon-name-section {
+    position: absolute;
+    font-size: 700px;
+    font: "DM Sans";
+    top: 240px;
+    left: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 272px;
+}
+
+.pokemon-name-and-sprite {
+    position: relative;
+    width: 100%;
+    height: 127px;
+}
+
+.pokemon-name-detail {
+    position: absolute;
+    top: 260px;
+    left: 24px;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+}
+
+.pokemon-sprite-detail {
+    position: absolute;
+    top: 238px;
+    left: 210px;
+    width: 127px;
+    height: 127px;
+    z-index: 2;
+    image-rendering: pixelated;
+}
+
+.pokemon-stats-box {
+    position: absolute;
+    top: 334px;
+    left: 24px;
+    width: 272px;
+    height: 154px;
+    background-color: #05091b;
+    border-radius: 8px;
+    padding: 10px 14px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stat.health .label {
+    font-size: 14px;
+    color: #c4c7f5;
+    margin-bottom: 2px;
+}
+
+.health-bar-container {
+    width: 100%;
+    height: 8px;
+    background-color: #3d4466;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 4px 0;
+}
+
+.health-bar {
+    height: 100%;
+    background-color: #31e5b1;
+    border-radius: 4px;
+}
+
+.health-value {
+    font-size: 14px;
+    color: #cfcac0;
+    margin-top: 2px;
+}
+
+.health-value .bold {
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    margin-right: 4px;
+}
+
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #2e2b5a;
+    padding-top: 6px;
+    margin-top: 4px;
+}
+
+.stat-left,
+.stat-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-left {
+    padding-left: 6px;
+}
+
+.stat-right {
+    padding-right: 70px;
+}
+
+.label {
+    font-size: 14px;
+    color: #9ca3f5;
+    margin-bottom: 2px;
+}
+
+.value {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}

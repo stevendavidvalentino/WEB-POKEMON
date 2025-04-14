@@ -1,0 +1,124 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.app-container {
+  width: 320px;
+  height: 568px;
+  background-color: #1c1e3c;
+  color: white;
+  font-family: sans-serif;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0;
+}
+
+.header-container {
+  width: 100%;
+  width: 320px;
+  height: 48px;
+  border-width: 1px;
+  background-color: #181b3a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #333756;
+}
+
+.pokemon-logo {
+  height: 70px;
+  width: 100px;
+  margin-top: -20px;
+  left: 21px;
+  margin-left: -6px;
+  object-fit: contain;
+}
+
+.search-icon {
+  width: 20px;
+  height: 19px;
+  stroke: white;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  margin-right: 8px;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.search-input {
+  width: 144px;
+  height: 26px;
+  top: 11px;
+  left: 149px;
+  border-radius: 8px;
+  border-width: 1px;
+  border: 1px solid #3d4466;
+  color: #97a0cc;
+  background-color: #f8f8f8;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-right: 8px;
+}
+
+.scroll-content {
+  flex: 1;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.scroll-content::-webkit-scrollbar {
+  display: none;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.sort-dropdown {
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  background-color: #2a2d4e;
+  color: white;
+}
+
+.layout-toggle {
+  display: flex;
+  border-radius: 10px;
+  background-color: #2a2d4e;
+  overflow: hidden;
+}
+
+.layout-icon {
+  padding: 8px;
+  cursor: pointer;
+  color: #aaa;
+}
+
+.layout-icon.selected {
+  background-color: #1c1e3c;
+  color: white;
+}
